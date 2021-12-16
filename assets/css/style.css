@@ -30,7 +30,7 @@ body {
 }
 
 .video-container video {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top: 50%;
   left:50%;
@@ -361,7 +361,7 @@ h6 {
 
 section {
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 140px;
     bottom: 100%;
